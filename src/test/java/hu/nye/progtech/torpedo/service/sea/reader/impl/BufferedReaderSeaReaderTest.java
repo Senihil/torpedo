@@ -1,4 +1,4 @@
-package hu.nye.progtech.torpedo.service.map.reader.impl;
+package hu.nye.progtech.torpedo.service.sea.reader.impl;
 
 import hu.nye.progtech.torpedo.service.exception.SeaReadException;
 import hu.nye.progtech.torpedo.service.sea.reader.impl.BufferedReaderSeaReader;
