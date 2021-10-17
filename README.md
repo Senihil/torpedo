@@ -1,1 +1,1 @@
-# Sudoku
+# Torpedó játék
