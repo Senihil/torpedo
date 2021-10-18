@@ -19,7 +19,7 @@ public class SeaParser {
         int[][] sea = getSea(rawSea);
         boolean[][] fixed = getFixed(sea);
 
-        System.out.println(Arrays.deepToString(sea));
+        //System.out.println(Arrays.deepToString(sea));
 
         return new SeaVO(numberOfRows, numberOfColumns, sea, fixed);
     }
