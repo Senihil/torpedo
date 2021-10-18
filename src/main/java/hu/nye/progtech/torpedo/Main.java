@@ -28,6 +28,19 @@ public class Main {
             SeaVO seaVO2 = seaParser.parseSea(strings);
             //System.out.println(seaVO1);
             //System.out.println(seaVO2);
+
+            var scanner = new java.util.Scanner(System.in);
+            System.out.print("What is your name?\n");
+            var name = scanner.nextLine();
+
+            System.out.print("Type print to start the game, " + name + "!\n");
+            var start = scanner.nextLine();
+            if(start.equals("print")) {
+                System.out.println(seaVO1);
+                System.out.println(seaVO2);
+            }else {
+                System.out.println("Invalid command!");
+            }
         } catch (SeaReadException e) {
             e.printStackTrace();
         }
